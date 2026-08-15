@@ -236,23 +236,23 @@
     if (notes.length > 600) { showError('notes', 'Notes must be under 600 characters'); hasError = true; }
     if (hasError) return;
 
-    // Show success state
-    if (formPanel && successPanel) {
-      formPanel.style.display = 'none';
-      successPanel.style.display = 'block';
-      const nameEl = document.getElementById('success-name');
-      const dateEl = document.getElementById('success-date');
-      const waLink = document.getElementById('success-wa-link');
-      if (nameEl) nameEl.textContent = name;
-      if (dateEl) dateEl.textContent = date;
-      if (waLink) {
-        const msg = encodeURIComponent(`Hello, I just requested an appointment for ${date}.`);
-        waLink.href = `https://wa.me/919841023292?text=${msg}`;
-      }
-    }
+    const formattedNotes = notes ? `\n- Notes: ${notes}` : '';
+    const text = `Hello Doctor, I would like to book a Siddha consultation:
+- Name: ${name}
+- Age: ${age}
+- Phone: ${phone}
+- Condition: ${condition}
+- Preferred Date: ${date}${formattedNotes}`;
+    const waUrl = `https://wa.me/919841023292?text=${encodeURIComponent(text)}`;
+    
+    // Reset form fields
     form.reset();
+
+    // Directly redirect the user to WhatsApp in the current window
+    window.location.href = waUrl;
   });
 
+  // Keep this event listener for back-compatibility if the button still exists in HTML
   const bookAnotherBtn = document.getElementById('book-another-btn');
   if (bookAnotherBtn) {
     bookAnotherBtn.addEventListener('click', () => {

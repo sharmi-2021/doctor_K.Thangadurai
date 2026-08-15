@@ -92,6 +92,34 @@
               <li class="about-role-item">Principal, JSA Medical College for Siddha and Research Centre, Ulundurpet Post, Kallakurichi Dist, Tamil Nadu, India</li>
               <li class="about-role-item">Former Professor, National Institute of Siddha</li>
             </ul>
+            <!-- Research Identifiers -->
+            <div style="margin-top:1.25rem;border-top:1px solid var(--border);padding-top:1.25rem;display:flex;flex-direction:column;gap:0.6rem;">
+              <p class="eyebrow-text" style="margin-bottom:0.25rem;">Research Identifiers</p>
+              <a href="https://orcid.org/0009-0006-1925-9989" target="_blank" rel="noopener noreferrer"
+                 style="display:inline-flex;align-items:center;gap:0.5rem;font-size:0.8rem;font-weight:600;color:var(--primary);text-decoration:none;border:1px solid oklch(0.72 0.14 88 / 0.4);background:oklch(0.72 0.14 88 / 0.07);border-radius:9999px;padding:0.3rem 0.75rem;transition:background 0.2s,border-color 0.2s;"
+                 onmouseover="this.style.background='oklch(0.72 0.14 88 / 0.15)';this.style.borderColor='oklch(0.72 0.14 88 / 0.7)';"
+                 onmouseout="this.style.background='oklch(0.72 0.14 88 / 0.07)';this.style.borderColor='oklch(0.72 0.14 88 / 0.4)';"
+                 aria-label="ORCID iD 0009-0006-1925-9989">
+                <!-- ORCID logo SVG -->
+                <svg width="18" height="18" viewBox="0 0 256 256" aria-hidden="true" style="flex-shrink:0;">
+                  <path d="M128 0C57.3 0 0 57.3 0 128s57.3 128 128 128 128-57.3 128-128S198.7 0 128 0z" fill="#A6CE39"/>
+                  <path d="M86.3 186.2H70.9V79.1h15.4v107.1zM108.9 79.1h41.6c39.6 0 57 28.3 57 53.6 0 27.5-21.5 53.6-56.8 53.6h-41.8V79.1zm15.4 93.3h24.5c34.9 0 42.9-26.5 42.9-39.7C191.7 111.2 178 93 148 93h-23.7v79.4zM88.7 56.8c0 5.5-4.5 10.1-10.1 10.1s-10.1-4.6-10.1-10.1c0-5.6 4.5-10.1 10.1-10.1s10.1 4.6 10.1 10.1z" fill="#fff"/>
+                </svg>
+                ORCID: 0009-0006-1925-9989
+              </a>
+              <a href="https://share.google/QrmZMPJmEXM0ZITOI" target="_blank" rel="noopener noreferrer"
+                 style="display:inline-flex;align-items:center;gap:0.5rem;font-size:0.8rem;font-weight:600;color:var(--primary);text-decoration:none;border:1px solid oklch(0.72 0.14 88 / 0.4);background:oklch(0.72 0.14 88 / 0.07);border-radius:9999px;padding:0.3rem 0.75rem;transition:background 0.2s,border-color 0.2s;"
+                 onmouseover="this.style.background='oklch(0.72 0.14 88 / 0.15)';this.style.borderColor='oklch(0.72 0.14 88 / 0.7)';"
+                 onmouseout="this.style.background='oklch(0.72 0.14 88 / 0.07)';this.style.borderColor='oklch(0.72 0.14 88 / 0.4)';"
+                 aria-label="Google Scholar Profile">
+                <!-- Scholar icon -->
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink:0;" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                </svg>
+                Google Scholar Profile
+              </a>
+            </div>
           </div>
         </div>
 
@@ -148,6 +176,135 @@
       </div>
     </section>
 
+    <!-- Conditions Treated Section -->
+    <section class="section-pad" style="padding-top:0;">
+      <div class="container">
+        <div class="reveal section-heading text-left" style="margin-bottom:2rem;">
+          <p class="eyebrow-text">Clinical Specialisation</p>
+          <h2 class="section-title font-display">Conditions Treated</h2>
+          <div class="gold-rule" aria-hidden="true"></div>
+          <p class="section-subtitle">Dr. Thangadurai brings focused clinical expertise in the following areas through classical Siddha therapeutics. Click any condition to learn more.</p>
+        </div>
+
+        <div id="conditions-treated-list" style="display:flex;flex-direction:column;gap:0.75rem;">
+
+          <!-- Arthritis -->
+          <div class="reveal cond-item" style="transition-delay:0ms;border-radius:0.75rem;border:1px solid var(--border);background:var(--card);box-shadow:var(--shadow-card);overflow:hidden;">
+            <button class="cond-trigger" type="button" aria-expanded="false" aria-controls="cond-body-1" id="cond-btn-1"
+              style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.25rem 1.5rem;background:none;border:none;cursor:pointer;text-align:left;">
+              <span style="display:flex;align-items:center;gap:0.85rem;">
+                <span style="display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:0.5rem;background:var(--primary);color:var(--primary-foreground);flex-shrink:0;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+                    <path d="M9 12h6m-3-3v6m-7 3a9 9 0 1 1 18 0v0"/>
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M8 16s1.5-2 4-2 4 2 4 2"/>
+                  </svg>
+                </span>
+                <span>
+                  <span style="display:block;font-family:var(--font-display,Merriweather,serif);font-weight:700;font-size:1rem;color:var(--primary);">Arthritis &amp; Joint Disorders</span>
+                  <span style="display:block;font-size:0.78rem;color:var(--muted-foreground);margin-top:0.1rem;">Joint pain &amp; Siddha rheumatology care</span>
+                </span>
+              </span>
+              <svg class="cond-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true" style="flex-shrink:0;transition:transform 0.35s cubic-bezier(0.16,1,0.3,1);"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div id="cond-body-1" style="display:grid;grid-template-rows:0fr;transition:grid-template-rows 0.4s cubic-bezier(0.16,1,0.3,1);" role="region" aria-labelledby="cond-btn-1">
+              <div style="overflow:hidden;">
+                <div style="padding:0 1.5rem 1.5rem 1.5rem;border-top:1px solid var(--border);padding-top:1.25rem;">
+                  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.6rem;">
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Management of both degenerative (osteoarthritis) and inflammatory (rheumatoid arthritis) joint conditions.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Classical formulations including <em>Vatha Kudineer</em> and herbo-mineral preparations tailored to individual <em>Vatha</em> imbalance.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Complementary Thokkanam (therapeutic massage), diet therapy and lifestyle modification plans.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Reduction of pain, inflammation and improvement of joint mobility through evidence-informed Siddha protocols.</li>
+                  </ul>
+                  <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1rem;">
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Osteoarthritis</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Rheumatoid Arthritis</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Vatha Kudineer</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Thokkanam</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skin Diseases -->
+          <div class="reveal cond-item" style="transition-delay:80ms;border-radius:0.75rem;border:1px solid var(--border);background:var(--card);box-shadow:var(--shadow-card);overflow:hidden;">
+            <button class="cond-trigger" type="button" aria-expanded="false" aria-controls="cond-body-2" id="cond-btn-2"
+              style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.25rem 1.5rem;background:none;border:none;cursor:pointer;text-align:left;">
+              <span style="display:flex;align-items:center;gap:0.85rem;">
+                <span style="display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:0.5rem;background:var(--primary);color:var(--primary-foreground);flex-shrink:0;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                  </svg>
+                </span>
+                <span>
+                  <span style="display:block;font-family:var(--font-display,Merriweather,serif);font-weight:700;font-size:1rem;color:var(--primary);">Skin Diseases</span>
+                  <span style="display:block;font-size:0.78rem;color:var(--muted-foreground);margin-top:0.1rem;">Dermatological Siddha treatments / Noi Naadu</span>
+                </span>
+              </span>
+              <svg class="cond-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true" style="flex-shrink:0;transition:transform 0.35s cubic-bezier(0.16,1,0.3,1);"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div id="cond-body-2" style="display:grid;grid-template-rows:0fr;transition:grid-template-rows 0.4s cubic-bezier(0.16,1,0.3,1);" role="region" aria-labelledby="cond-btn-2">
+              <div style="overflow:hidden;">
+                <div style="padding:0 1.5rem 1.5rem 1.5rem;border-top:1px solid var(--border);padding-top:1.25rem;">
+                  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.6rem;">
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Treatment of psoriasis, eczema, vitiligo (<em>Venpulli</em>), fungal disorders and chronic inflammatory skin conditions.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Time-tested preparations including <em>Gandhaga Rasayanam</em> and <em>Nandhi Mezhugu</em> for external and internal application.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Internal purification protocols (Shodhana) to address root-cause dosha imbalance underlying skin pathology.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Dietary counselling to avoid trigger foods and support skin healing from within.</li>
+                  </ul>
+                  <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1rem;">
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Psoriasis</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Vitiligo</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Gandhaga Rasayanam</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Shodhana</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sexual Disorders -->
+          <div class="reveal cond-item" style="transition-delay:160ms;border-radius:0.75rem;border:1px solid var(--border);background:var(--card);box-shadow:var(--shadow-card);overflow:hidden;">
+            <button class="cond-trigger" type="button" aria-expanded="false" aria-controls="cond-body-3" id="cond-btn-3"
+              style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.25rem 1.5rem;background:none;border:none;cursor:pointer;text-align:left;">
+              <span style="display:flex;align-items:center;gap:0.85rem;">
+                <span style="display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:0.5rem;background:var(--primary);color:var(--primary-foreground);flex-shrink:0;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+                    <path d="M12 22V12m0 0C8 12 4 9 4 5a8 8 0 0 1 16 0c0 4-4 7-8 7z"/>
+                  </svg>
+                </span>
+                <span>
+                  <span style="display:block;font-family:var(--font-display,Merriweather,serif);font-weight:700;font-size:1rem;color:var(--primary);">Sexual Disorders</span>
+                  <span style="display:block;font-size:0.78rem;color:var(--muted-foreground);margin-top:0.1rem;">Andrology &amp; Siddha reproductive health care</span>
+                </span>
+              </span>
+              <svg class="cond-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true" style="flex-shrink:0;transition:transform 0.35s cubic-bezier(0.16,1,0.3,1);"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div id="cond-body-3" style="display:grid;grid-template-rows:0fr;transition:grid-template-rows 0.4s cubic-bezier(0.16,1,0.3,1);" role="region" aria-labelledby="cond-btn-3">
+              <div style="overflow:hidden;">
+                <div style="padding:0 1.5rem 1.5rem 1.5rem;border-top:1px solid var(--border);padding-top:1.25rem;">
+                  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.6rem;">
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Comprehensive management of male sexual and reproductive health — including erectile dysfunction and oligospermia.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span><em>Muppu</em>-based formulations and Kayakalpa medicines for reproductive vitality restoration.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Tailored nutritional counselling and lifestyle modification to support andrological health.</li>
+                    <li style="display:flex;align-items:flex-start;gap:0.625rem;font-size:0.9rem;line-height:1.65;color:var(--muted-foreground);"><span style="flex-shrink:0;margin-top:0.45rem;width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;"></span>Directly informed by Dr. Thangadurai's published clinical handbook — <em>Management of Male Infertility in Siddha</em>.</li>
+                  </ul>
+                  <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1rem;">
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Male Infertility</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Andrology</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Kayakalpa</span>
+                    <span style="display:inline-flex;align-items:center;border-radius:9999px;border:1px solid oklch(0.72 0.14 88 / 0.35);background:oklch(0.72 0.14 88 / 0.08);padding:0.2rem 0.75rem;font-size:0.72rem;font-weight:600;color:var(--primary);">Muppu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- end #conditions-treated-list -->
+      </div>
+    </section>
+
     <!-- Accordion: Detailed Profile -->
     <section class="about-accordion-section">
       <div class="container">
@@ -183,6 +340,26 @@
                     <li>Former Member, Board of Studies, The TN Dr. MGR Medical University</li>
                     <li>Consultant, Bharathiraja Multi Specialty Hospital, T. Nagar, Chennai</li>
                   </ul>
+                  <!-- Research Identifiers -->
+                  <div class="accordion-badge-row" style="margin-top:1.25rem;">
+                    <a href="https://orcid.org/0009-0006-1925-9989" target="_blank" rel="noopener noreferrer" class="accordion-badge" style="text-decoration:none;gap:0.4rem;" aria-label="ORCID iD 0009-0006-1925-9989">
+                      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink:0;" fill="none">
+                        <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" fill="oklch(0.62 0.18 148)" opacity="0.18"/>
+                        <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" stroke="oklch(0.38 0.09 158)" stroke-width="1.5"/>
+                        <text x="12" y="16" text-anchor="middle" font-size="9" font-weight="700" fill="oklch(0.38 0.09 158)" font-family="sans-serif">iD</text>
+                      </svg>
+                      ORCID: 0009-0006-1925-9989
+                    </a>
+                    <a href="https://share.google/QrmZMPJmEXM0ZITOI" target="_blank" rel="noopener noreferrer" class="accordion-badge" style="text-decoration:none;gap:0.4rem;" aria-label="Google Scholar Profile">
+                      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink:0;" fill="none" stroke="oklch(0.38 0.09 158)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 14c3.866 0 7-3.134 7-7S15.866 0 12 0 5 3.134 5 7s3.134 7 7 7z" transform="translate(0 2)"/>
+                        <path d="M2 22c0-3.866 4.477-7 10-7s10 3.134 10 7" />
+                        <line x1="12" y1="2" x2="12" y2="8"/>
+                        <line x1="9" y1="5" x2="15" y2="5"/>
+                      </svg>
+                      Google Scholar Profile
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -344,6 +521,51 @@
             </div>
           </div>
 
+          <!-- 8. Specialized Siddha Treatment & Clinical Research Areas -->
+          <div class="accordion-item reveal" id="acc-8" style="transition-delay:420ms">
+            <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="acc-body-8" id="acc-btn-8">
+              <span class="accordion-trigger-left">
+                <span class="accordion-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg>
+                </span>
+                <span class="accordion-trigger-label">Specialized Siddha Treatment &amp; Clinical Research Areas</span>
+              </span>
+              <svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="accordion-body" id="acc-body-8" role="region" aria-labelledby="acc-btn-8">
+              <div class="accordion-body-inner">
+                <div class="accordion-content">
+                  <p>Dr. Thangadurai brings deep clinical experience in treating chronic and complex conditions through classical Siddha therapeutics, combining traditional formulations with documented evidence-based protocols.</p>
+                  <ul class="accordion-content-list" style="margin-top:1rem;">
+                    <li>
+                      <span>
+                        <strong style="color:var(--primary);">Arthritis &amp; Joint Disorders</strong> — Joint pain management and Siddha rheumatology care. Classical formulations such as <em>Vatha Kudineer</em> and herbo-mineral preparations are employed for both degenerative (osteoarthritis) and inflammatory (rheumatoid) joint conditions, alongside diet therapy and Thokkanam (therapeutic massage).
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <strong style="color:var(--primary);">Skin Diseases</strong> — Dermatological Siddha treatments. Management of conditions including psoriasis, eczema, vitiligo (Venpulli) and fungal disorders using time-tested preparations such as <em>Gandhaga Rasayanam</em>, <em>Nandhi Mezhugu</em> and internal purification (Shodhana) protocols.
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <strong style="color:var(--primary);">Sexual Disorders</strong> — Andrology and Siddha reproductive health care. Comprehensive management of male sexual and reproductive health issues — including erectile dysfunction, oligospermia and related conditions — using <em>Muppu</em>-based formulations, Kayakalpa medicines and tailored nutritional counselling. Directly informed by his published research on Male Infertility in Siddha.
+                      </span>
+                    </li>
+                  </ul>
+                  <div class="accordion-badge-row">
+                    <span class="accordion-badge">Arthritis</span>
+                    <span class="accordion-badge">Skin Diseases</span>
+                    <span class="accordion-badge">Sexual Disorders</span>
+                    <span class="accordion-badge">Rheumatology</span>
+                    <span class="accordion-badge">Andrology</span>
+                    <span class="accordion-badge">Dermatology</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div><!-- end .accordion-list -->
       </div>
     </section>
@@ -430,6 +652,47 @@
       document.getElementById('sparkle-dot').style.display = 'block';
     }
     document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+    /* Conditions Treated expandable panels */
+    (function () {
+      var triggers = document.querySelectorAll('.cond-trigger');
+      triggers.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var bodyId  = btn.getAttribute('aria-controls');
+          var body    = document.getElementById(bodyId);
+          var chevron = btn.querySelector('.cond-chevron');
+          var isOpen  = btn.getAttribute('aria-expanded') === 'true';
+
+          /* Close all other panels */
+          triggers.forEach(function (other) {
+            if (other !== btn) {
+              var ob = document.getElementById(other.getAttribute('aria-controls'));
+              var oc = other.querySelector('.cond-chevron');
+              other.setAttribute('aria-expanded', 'false');
+              if (ob) ob.style.gridTemplateRows = '0fr';
+              if (oc) oc.style.transform = 'rotate(0deg)';
+              var ci = other.closest('.cond-item');
+              if (ci) ci.style.borderColor = '';
+            }
+          });
+
+          /* Toggle clicked panel */
+          if (isOpen) {
+            btn.setAttribute('aria-expanded', 'false');
+            if (body) body.style.gridTemplateRows = '0fr';
+            if (chevron) chevron.style.transform = 'rotate(0deg)';
+            var item = btn.closest('.cond-item');
+            if (item) item.style.borderColor = '';
+          } else {
+            btn.setAttribute('aria-expanded', 'true');
+            if (body) body.style.gridTemplateRows = '1fr';
+            if (chevron) chevron.style.transform = 'rotate(180deg)';
+            var item2 = btn.closest('.cond-item');
+            if (item2) item2.style.borderColor = 'oklch(0.72 0.14 88 / 0.55)';
+          }
+        });
+      });
+    })();
   </script>
   <script src="js/main.js"></script>
 </body>
